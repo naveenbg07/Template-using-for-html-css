@@ -1,0 +1,112 @@
+
+/* TABLET */
+
+@media(min-width:769px) and (max-width:1200px){
+    .desktopBanner{
+        display: none;
+    }
+    .tabBanner{
+        display: block;
+        overflow: hidden;
+        position: relative;
+    }
+    .tabBanner>header{
+        background: linear-gradient(to right, #2193b0, #6dd5ed);
+        padding: 10px;
+
+    }
+    .tabBanner>header>nav{
+        text-align: center;
+    }
+    .tabBanner>header>nav>ul{
+        list-style-type: none;
+    }
+    .tabBanner>header>nav>ul>li{
+        display: inline-block;
+        padding: 20px;
+    
+    }
+    .tabBanner>header>nav>ul>li>a{
+        color: #2193b0;
+        text-decoration: none;
+    }
+    .tabBanner>header>nav>ul>li:hover{
+        background: #fff;
+        border-radius: 2px;
+
+    }
+    .tabBanner>header>nav>ul>li:hover a{
+        color: yellow;
+    }
+    .tabBanner>video{
+        width: 100%;
+    }
+    .tabBanner>h1{
+        position: absolute;
+        top: 50%;
+        left: 22%;
+        font-size: 60px;
+        color: #fff;
+        text-shadow: 3px 3px 2px green;
+    }
+   
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+    .desktopBanner{
+        display: none;
+    }
+    .mobBanner{
+        display: block;
+        /* overflow: hidden; */
+        position: relative;
+    }
+    .mobBanner>header{
+        background: linear-gradient(to right, #2193b0, #6dd5ed);
+        padding: 10px;
+
+    }
+    .mobBanner>header>nav{
+        text-align: center;
+    }
+    .mobBanner>header>nav>ul{
+        list-style-type: none;
+    }
+    .mobBanner>header>nav>ul>li{
+        display: block;
+        padding: 20px;
+    
+    }
+    .mobBanner>header>nav>ul>li>a{
+        color:#fff;
+        text-decoration: none;
+    }
+    .mobBanner>header>nav>ul>li:hover{
+        background: grey;
+        border-radius: 2px;
+    }
+    .mobBanner>header>nav>ul>li:hover a{
+        color:green;
+    }
+    .mobBanner>video{
+        width: 100%;
+    }
+    .mobBanner>h1{
+        position: absolute;
+        top: 50%;
+        left: 22%;
+        font-size: 60px;
+        color: #fff;
+        text-shadow: 3px 3px 2px green;
+    }
+    [class*="col"]{
+        width: 100%;
+    }
+    
+}
+
+
+
+
